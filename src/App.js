@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import "./crt.css";
+import "./terminal.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="crt">
+    <div className="terminal">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
