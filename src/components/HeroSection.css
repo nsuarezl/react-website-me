@@ -18,52 +18,54 @@
       rgba(33, 153, 0, 0.75), black 120%
     );
     height: 100vh;
-    text-shadow: 0 0 5px #C8C8C8;
+    text-shadow: 0 0 5px #cbcbcb;
     height: 500vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     position: relative;
-    color: #fff;
+    color: rgb(255, 255, 255);
     object-fit: contain;
+}
+
+.hero-firsthing{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero-firsthingNomarg{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hero-header{
     
+    font-size:50px;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.hero-header2{
+    font-size:50px;
+    margin-top: 8px;
+    justify-content: center;
 }
 
 .hero-intro{
     font-size: 22px;
     max-width: 40%;
+    margin-left: 50px;
     text-align: justify;
     padding-bottom: 50px;
 }
 
-.hero-container > h1{
-    color: rgb(255, 255, 255);
-    font-size:50px;
-    margin-top: 250px;
-    margin-left: 50px;
-    font-weight: 700;
-}
 
-.hero-container > h2{
-    color: #fff;
-    font-size:50px;
-    margin-top: 8px;
-    justify-content: center;
-    
-}
 
-.hero-container > p{
-    margin-top: 20px;
-    margin-left: 50px;
-    color: #fff;
-    font-size: 25px;
-    justify-content: center;
-    align-items: left;
-    
-}
-
-.hero-container > pre{
+.hero-words{
     margin-top: 20px;
     margin-left: 50px;
     color: #fff;
