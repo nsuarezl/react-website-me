@@ -1,14 +1,13 @@
 .footer-container {
     background-color: #242424;
-    padding: 2rem 0 0rem 0;
+    padding: 2em 0 0rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: min-content;
+    margin-top: 8800px;
   }
-  
-  
-  
   .footer-links {
     width: 100%;
     max-width: 1000px;
@@ -60,7 +59,7 @@
   /* Social Icons */
   .social-icon-link {
     color: #fff;
-    font-size: 24px;
+    font-size: 12px;
   }
   
   .social-media {
@@ -90,7 +89,7 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
