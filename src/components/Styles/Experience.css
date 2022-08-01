@@ -1,0 +1,86 @@
+.exp-container{
+    text-shadow: 0 0 5px #cbcbcb;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    color: rgb(255, 255, 255);
+    object-fit: contain;
+}
+
+.exp-firsthing{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+
+.exp-header{
+    font-size: 50px;
+    margin-left: 250px;
+    margin-top: 200px;
+    padding-right: 40rem;
+   
+}
+
+.exp-header2{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-right: 40rem;
+   
+}
+
+.exp-name{
+    color: lightblue;
+    font-size: 50px;
+}
+
+
+.exp-intro{
+    opacity: 0;
+    font-size: 22px;
+    max-width: 40%;
+    margin-left: 250px;
+    margin-top: 25px;
+    text-align: justify;
+
+
+}
+
+.exp-intro-p{
+    font-size: 22px;
+ 
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.exp-intro a{
+    color:lightblue;
+    font-size: 22px;
+    display: inline-block;
+    
+}
+
+.exp-intro a:hover{
+transform: translateY(-2px);
+
+    
+}
+
+.exp-intro b{
+    color:lightblue;
+    font-size: 22px;
+}
+
+.exp-intro ul{
+    columns: 2;
+    list-style-type: "</>";
+    list-style-position: inside;
+    font-size: 22px;
+}
+.exp-intro li{
+    font-size: 22px;
+}
