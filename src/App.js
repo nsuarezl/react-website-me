@@ -1,26 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
-import "./terminal.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import Projects from "./components/pages/Projects";
 import AboutMe from "./components/pages/AboutMe";
-import ContactMe from "./components/pages/ContactMe";
+import Experience from "./components/pages/Experience";
 import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <div className="terminal">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/contact-me" element={<ContactMe />} />
-        </Routes>
-      </Router>
-
-      <Footer />
+    <div className="a">
+      <div className="App">
+        <Router>
+          <HeroSection></HeroSection>
+          <AboutMe></AboutMe>
+          <Experience></Experience>
+          <Footer></Footer>
+        </Router>
+      </div>
     </div>
   );
 }
