@@ -4,8 +4,20 @@
   
   h1 {
     text-align: center;
+    
   }
   
+  .about-header{
+    font-size: 50px;
+    font: 1.3rem Inconsolata, monospace;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #cbcbcb;
+    margin-left: 250px;
+    margin-top: 200px;
+    padding-right: 40rem;
+   
+}
+
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -95,6 +107,7 @@
   .cards__item__text {
     color: #252e48;
     font-size: 18px;
+    font: 1.3rem Inconsolata, monospace;
     line-height: 24px;
   }
   

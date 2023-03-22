@@ -1,21 +1,21 @@
 import React from "react";
-import Typist from "react-typist";
+
 import "../../App.css";
 import Cards from "../Cards";
 import FadeInSection from "./FadeIn";
 import "../Styles/AboutMe.css";
-import Fade from 'react-reveal/Fade';
+
 
 
 
 function AboutMe() {
   return (
-    <Fade up delay={6000} duration={1000}>
+    
       <div className="about-container"> 
-          <Typist className="about-header">
-            <Typist.Delay ms={7000}/>
+          <div className="about-header">
+            
           /about me
-          </Typist>
+          </div>
 
           <div className="about-intro">
             I am a senior at <a href="https://floridapoly.edu" target="_blank"> Florida Poly </a>
@@ -33,12 +33,12 @@ function AboutMe() {
               <li><b>HTML and CSS</b></li>
             </ul>
             <div className="about-intro-p">
-            Whenever I am not coding stuff, I like to play videogames and consume TV shows.
+            Whenever I am not coding stuff, I like to play videogames and listen to music
             </div>
           </div>
 
       </div>
-    </Fade>
+    
     
   );
 }

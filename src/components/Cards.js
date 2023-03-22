@@ -6,7 +6,7 @@ import FadeIn from "./pages/FadeIn";
 function Cards() {
   return (
       <div className="cards">
-        <h1> About Me</h1>
+        <div className="about-header"> /Projects</div>
         <div className="cards__container">
           <div className="cards__wrapper">
             <ul className="cards__items">

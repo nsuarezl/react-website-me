@@ -5,6 +5,7 @@ import AboutMe from "./components/pages/AboutMe";
 import Experience from "./components/pages/Experience";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
+import Cards from "./components/Cards";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <HeroSection></HeroSection>
           <AboutMe></AboutMe>
           <Experience></Experience>
+          <Cards></Cards>
           <Footer></Footer>
         </Router>
       </div>
