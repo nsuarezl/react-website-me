@@ -9,7 +9,7 @@ function HeroSection() {
   
     <div className="hero-container">
       <div className="hero-firsthing">
-        COPYRIGHT 2002-2022 © NSL INDUSTRIES
+        COPYRIGHT 2002-2023 © NSL INDUSTRIES
       </div>
 
     

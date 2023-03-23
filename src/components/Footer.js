@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 function Footer() {
@@ -16,10 +16,10 @@ function Footer() {
       </div>
 
       <div class="social-container">
-        <a href="https://twitter.com/McFlyo85" className="twitter social">
-          <FontAwesomeIcon icon={faTwitter} size="2x" />
+        <a href="https://github.com/nsuarezl" className="mail social">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-        <a href="mailto:nsuarez9001@floridapoly.edu" className="mail social">
+        <a href="mailto:nsuarezlarre@gmail.com" className="mail social">
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
         <a
@@ -30,7 +30,7 @@ function Footer() {
         </a>
       </div>
       <small class="website-rights">Built and designed by Nelson Suarez</small>
-      <small class="website-rights">All rights Reserved. © 2022</small>
+      <small class="website-rights">All rights Reserved. © 2023</small>
     </div>
   );
 }

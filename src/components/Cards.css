@@ -11,7 +11,7 @@
     font-size: 50px;
     font: 1.3rem Inconsolata, monospace;
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 5px #cbcbcb;
+    text-shadow: 0 0 5px #ffffff;
     margin-left: 250px;
     margin-top: 200px;
     padding-right: 40rem;
@@ -23,6 +23,7 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
+    
     width: 90%;
     margin: 0 auto;
   }
@@ -30,10 +31,12 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    
   }
   
   .cards__items {
     margin-bottom: 24px;
+    
   }
   
   .cards__item {
@@ -47,8 +50,8 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    box-shadow: 0 6px 20px rgba(248, 248, 248, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
@@ -76,8 +79,8 @@
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
+    color: #ffffff;
+    background-color: #2f313596;
     box-sizing: border-box;
   }
   
@@ -101,14 +104,17 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 10px 40px 20px;
+    
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff;
     font-size: 18px;
     font: 1.3rem Inconsolata, monospace;
     line-height: 24px;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1200px) {
